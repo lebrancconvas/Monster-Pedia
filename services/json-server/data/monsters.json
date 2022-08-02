@@ -1,0 +1,90 @@
+[
+	{
+		"number": "001",
+		"name": "Derek",
+		"race": "GIANT",
+		"desc": "The gigantic monster of The North Savager Land.",
+		"stat": {
+			"life": 1000,
+			"power": 200,
+			"resist": 500
+		}
+	},
+	{
+		"number": "002",
+		"name": "Jenois",
+		"race": "FAIRY",
+		"desc": "",
+		"stat": {
+			"life": 0,
+			"power": 0,
+			"resist": 0
+		}
+	},
+	{
+		"number": "003",
+		"name": "Trashster",
+		"race": "ROBOT",
+		"desc": "",
+		"stat": {
+			"life": 0,
+			"power": 0,
+			"resist": 0
+		}
+	},
+	{
+		"number": "004",
+		"name": "Alan Keene",
+		"race": "HUMAN",
+		"desc": "",
+		"stat": {
+			"life": 0,
+			"power": 0,
+			"resist": 0
+		}
+	},
+	{
+		"number": "005",
+		"name": "Super Palmer",
+		"race": "ROBOT",
+		"desc": "",
+		"stat": {
+			"life": 0,
+			"power": 0,
+			"resist": 0
+		}
+	},
+	{
+		"number": "006",
+		"name": "Sendai",
+		"race": "ROBOT",
+		"desc": "",
+		"stat": {
+			"life": 0,
+			"power": 0,
+			"resist": 0
+		}
+	},
+	{
+		"number": "007",
+		"name": "Dojo Wayu",
+		"race": "HERO",
+		"desc": "",
+		"stat": {
+			"life": 0,
+			"power": 0,
+			"resist": 0
+		}
+	},
+	{
+		"number": "008",
+		"name": "Super Middle Man",
+		"race": "HERO",
+		"desc": "",
+		"stat": {
+			"life": 0,
+			"power": 0,
+			"resist": 0
+		}
+	}
+]
