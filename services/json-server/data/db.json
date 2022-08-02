@@ -1,5 +1,13 @@
 [
-		{
-			"id": 1
+	{
+		"number": "",
+		"name": "",
+		"race": "",
+		"desc": "",
+		"stat": {
+			"life": 0,
+			"power": 0,
+			"resist": 0
 		}
+	}
 ]
