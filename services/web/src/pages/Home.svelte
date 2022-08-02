@@ -1,22 +1,24 @@
 <script lang="ts">
-
+	import { link } from 'svelte-spa-router';
 </script>
 
 <main>
 	<header>
-		<div id="heading">
+		<div id="home-heading">
 			<h1>Monsterpedia</h1>
 		</div>
-		<div id="bio">
+		<div id="home-bio">
 			<h2>All Information that you want to know for Monster Arena</h2> 
 		</div>
 	</header>
 	<section>
-		<div id="wiki-button">
-			<div id="wiki-button-content">
-				Wiki
+		<a href="/wiki" use:link> 
+			<div id="wiki-button">
+				<div id="wiki-button-content">
+					Wiki
+				</div>
 			</div>
-		</div>
+		</a>
 	</section>
 </main>
 
@@ -26,6 +28,19 @@
 		text-align: center;
 		/* display: inline-block; */
 		/* vertical-align: middle; */
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	#home-heading {
+		font-size: 30px;
+	}
+
+	#home-bio {
+		font-size: 25px;
 	}
 
 	#wiki-button {
