@@ -1,8 +1,8 @@
 {
-	"name": "web",
+	"name": "@monsterpedia/web",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --port 3200", 
 		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
