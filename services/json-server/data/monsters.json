@@ -14,7 +14,7 @@
 		"number": "002",
 		"name": "Jenois",
 		"race": "FAIRY",
-		"desc": "",
+		"desc": "The Little fairy who is the one of The Seven Braves that defeat Marchengor, The Greatest Evil.", 
 		"stat": {
 			"life": 0,
 			"power": 0,
@@ -25,7 +25,7 @@
 		"number": "003",
 		"name": "Trashster",
 		"race": "ROBOT",
-		"desc": "",
+		"desc": "The Self-Generated Robot who have an ability to recover trashes to its normal form.", 
 		"stat": {
 			"life": 0,
 			"power": 0,

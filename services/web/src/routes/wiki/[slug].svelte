@@ -25,7 +25,7 @@
 	<!-- {$page.params.slug} -->
 	{#each monsterData as monster}
 		{#if monster.name === monsterName}
-			<MonsterCardDetail name={monster.name} race={monster.race} desc={monster.desc} />
+			<MonsterCardDetail name={monster.name} race={monster.race} desc={monster.desc} life={monster.stat.life} power={monster.stat.power} resist={monster.stat.resist} />
 		{/if}
 	{/each}
 
