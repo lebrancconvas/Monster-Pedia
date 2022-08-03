@@ -1,61 +1,65 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
+
 
 <script lang="ts">
-	import Counter from '$lib/Counter.svelte';
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
-
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
+<main>
+	<header>
+		<div id="home-heading">
+			<h1>Monsterpedia</h1>
+		</div>
+		<div id="home-bio">
+			<h2>All Information that you want to know for Monster Arena</h2> 
+		</div>
+	</header>
+	<section>
+		<a href="/wiki"> 
+			<div id="wiki-button">
+				<div id="wiki-button-content">
+					Wiki
+				</div>
+			</div>
+		</a>
+	</section>
+</main>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
+  main {
+		font-family: 'Itim', cursive;
+		text-align: center;
+		/* display: inline-block; */
+		/* vertical-align: middle; */
 	}
 
-	h1 {
-		width: 100%;
+	a {
+		text-decoration: none;
+		color: black;
 	}
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
+	#home-heading {
+		font-size: 30px;
 	}
 
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+	#home-bio {
+		font-size: 25px;
+	}
+
+	#wiki-button {
+		border: 2px solid black;
+		width: 10%;
+		padding: 5px;
+		border-radius: 10px;
+		margin: 10px auto;
+		background-color: orange;
+		box-shadow: 1px 1px 1px 1px black;
+		cursor: pointer;
+	}
+
+	#wiki-button:active {
+		transform: scale(0.98); 
+	}
+
+	#wiki-button-content {
+		font-size: 30px;
 	}
 </style>
