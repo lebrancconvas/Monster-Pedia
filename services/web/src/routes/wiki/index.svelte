@@ -21,9 +21,11 @@
 	</header>
 	<section id="wiki-monster-section">
 		{#each monsters as monster}
-		<div id="wiki-monster-card">
-			<MonsterCard name={monster.name} /> 
-		</div>
+			<a href={`/wiki/${monster.name}`}>
+				<div id="wiki-monster-card">
+					<MonsterCard name={monster.name} /> 
+				</div>
+			</a>
 		{/each}
 	</section>
 </main>
@@ -31,6 +33,11 @@
 <style>
 	main {
 		font-family: 'Itim', cursive;
+	}
+
+	a {
+		text-decoration: none;
+		color: black;
 	}
 
 	#wiki-heading {
